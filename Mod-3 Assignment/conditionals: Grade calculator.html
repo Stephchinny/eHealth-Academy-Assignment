@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Grade Calculator</title>
+</head>
+
+<body>
+    <script>
+        let grade = prompt('Enter Your score')
+        if ((grade >= 70) && (grade <= 100)) {
+            document.write("<h1>You got A - Distinction </h1>");
+        } else if ((grade >= 50) && (grade <= 60)) {
+            document.write("<h1>You got C - Credit </h1>");
+        } else if (grade <= 40) {
+            document.write("<h1>You got F - Fail </h1>");
+        } else {
+            document.write("<h1> Score ranges 0 - 100 </h1>");
+        }
+    </script>
+</body>
+
+</html>
